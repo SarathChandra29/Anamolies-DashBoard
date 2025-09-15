@@ -16,7 +16,7 @@ function App() {
     formData.append("file", file);
 
     try {
-      const res = await axios.post("http://127.0.0.1:5000/predict", formData, {
+      const res = await axios.post("https://pulsegaurd-1.onrender.com/predict", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setResult(res.data);
@@ -51,7 +51,7 @@ function App() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <h1 className="text-4xl font-extrabold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-          📊 PulseGuard Dashboard
+         Dashboard
         </h1>
 
         {/* Upload Section */}

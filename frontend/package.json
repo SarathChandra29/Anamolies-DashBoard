@@ -2,7 +2,7 @@
   "name": "pulseguard-frontend",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://KoushalParakala.github.io/Penny",
+  "homepage": "https://KoushalParakala.github.io/Pulsegaurd",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
